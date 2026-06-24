@@ -17,8 +17,13 @@
 body {
   background-color: var(--brand-gray);
 }
-.bg-brand {
+/* bg mais escuro */
+/* .bg-brand {
   background-color: var(--brand-blue) !important;
+} */
+/* bg mais claro */
+.bg-brand {
+  background-color: #214f7a !important;
 }
 .bg-soft {
   background-color: var(--brand-gray);
@@ -108,9 +113,14 @@ body {
     linear-gradient(100deg, rgba(16, 41, 69, 0.97), rgba(22, 59, 103, 0.84)),
     url("/assets/img/A-IGREJA-VERDADEIRAMENTE-APOSTOLICA.jpg") center/cover;
 }*/
-.page-hero {
+/* .page-hero {
   background:
     linear-gradient(100deg, rgba(16, 41, 69, 0.97), rgba(22, 59, 103, 0.84)),
+    url("/assets/img/culto-igreja-de-cristo.png") center/cover;
+} */
+.page-hero {
+  background:
+    linear-gradient(100deg, rgba(32, 78, 124, 0.82), rgba(73, 124, 174, 0.5)),
     url("/assets/img/culto-igreja-de-cristo.png") center/cover;
 }
 .event-date {
