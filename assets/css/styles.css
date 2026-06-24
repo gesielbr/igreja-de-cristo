@@ -5,6 +5,7 @@
   --brand-gold: #d4af37;
   --brand-gold-dark: #b79322;
   --brand-gray: #f3f4f6;
+  --brand-gray-soft: #fbfcfe;
   --bs-primary: var(--brand-blue);
   --bs-primary-rgb: 22, 59, 103;
   --bs-warning: var(--brand-gold);
@@ -21,6 +22,9 @@ body {
 }
 .bg-soft {
   background-color: var(--brand-gray);
+}
+.bg-soft-light {
+  background-color: var(--brand-gray-soft);
 }
 .text-brand {
   color: var(--brand-blue) !important;

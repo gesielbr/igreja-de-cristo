@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <title>Igreja de Cristo | Evangelho, Bíblia, Fé e Comunhão no Brasil</title>
+    <title>
+      Igreja de Cristo em Garopaba | Cultos, Estudos Bíblicos e Comunhão
+    </title>
     <meta
       content="Conheça a Igreja de Cristo em Garopaba: cultos, eventos, ministérios, galeria e contato. Venha fazer parte desta comunidade."
       name="description"
@@ -11,7 +13,7 @@
     <meta content="index, follow, max-image-preview:large" name="robots" />
     <meta content="#163b67" name="theme-color" />
     <link href="https://www.igrejadecristo.net.br/" rel="canonical" />
-    <link href="assets/img/logo.svg" rel="icon" type="image/svg+xml" />
+    <link href="../assets/img/logo.svg" rel="icon" type="image/svg+xml" />
     <link
       rel="preload"
       as="image"
@@ -22,11 +24,11 @@
     <meta content="website" property="og:type" />
     <meta content="Igreja de Cristo" property="og:site_name" />
     <meta
-      content="Igreja de Cristo | Evangelho, Bíblia, Fé e Comunhão no Brasil"
+      content="Igreja de Cristo | Fé, comunhão e propósito em Imbituba"
       property="og:title"
     />
     <meta
-      content="Conheça a Igreja de Cristo: uma comunidade cristã comprometida com Jesus Cristo, o Evangelho, a Bíblia, a comunhão e a missão de anunciar a Palavra de Deus."
+      content="Conheça a Igreja de Cristo em Imbituba: cultos, eventos, ministérios, galeria e contato. Venha fazer parte desta comunidade."
       property="og:description"
     />
     <meta content="https://www.igrejadecristo.net.br/" property="og:url" />
@@ -36,11 +38,11 @@
     />
     <meta content="summary_large_image" name="twitter:card" />
     <meta
-      content="Igreja de Cristo | Evangelho, Bíblia, Fé e Comunhão no Brasil"
+      content="Igreja de Cristo | Fé, comunhão e propósito em Garopaba"
       name="twitter:title"
     />
     <meta
-      content="Conheça a Igreja de Cristo: uma comunidade cristã comprometida com Jesus Cristo, o Evangelho, a Bíblia, a comunhão e a missão de anunciar a Palavra de Deus."
+      content="Conheça a Igreja de Cristo em Garopaba: cultos, eventos, ministérios, galeria e contato. Venha fazer parte desta comunidade."
       name="twitter:description"
     />
     <meta
@@ -57,18 +59,26 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
       rel="stylesheet"
     />
-    <link href="assets/css/styles.css" rel="stylesheet" />
+    <link href="../assets/css/styles.css" rel="stylesheet" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@graph": [
           {
-            "@type": "Organization",
-            "@id": "https://www.igrejadecristo.net.br/#organization",
-            "name": "Igreja de Cristo",
-            "url": "https://www.igrejadecristo.net.br/",
+            "@type": "Church",
+            "@id": "https://www.igrejadecristo.net.br/garopaba/#church",
+            "name": "Igreja de Cristo em Garopaba",
+            "url": "https://www.igrejadecristo.net.br/garopaba/",
             "logo": "https://www.igrejadecristo.net.br/assets/img/logo.svg",
-            "description": "A Igreja de Cristo é uma comunidade cristã comprometida com Jesus Cristo, o Evangelho, a Bíblia, a fé, a comunhão e a missão de anunciar a Palavra de Deus no Brasil.",
+            "telephone": "+55-48-99999-9999",
+            "email": "contato@igrejadecristo.net.br",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Rua Pinguirito, 40",
+              "addressLocality": "Garopaba",
+              "addressRegion": "SC",
+              "addressCountry": "BR"
+            },
             "sameAs": [
               "https://www.instagram.com/igrejadecristo",
               "https://www.facebook.com/igrejadecristo",
@@ -76,28 +86,62 @@
             ]
           },
           {
-            "@type": "WebSite",
-            "@id": "https://www.igrejadecristo.net.br/#website",
-            "name": "Igreja de Cristo",
-            "url": "https://www.igrejadecristo.net.br/",
-            "publisher": {
-              "@id": "https://www.igrejadecristo.net.br/#organization"
+            "@type": "Event",
+            "@id": "https://www.igrejadecristo.net.br/garopaba/#culto-celebracao",
+            "name": "Culto de Celebração",
+            "description": "Culto semanal da Igreja de Cristo em Garopaba.",
+            "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+            "eventStatus": "https://schema.org/EventScheduled",
+            "eventSchedule": {
+              "@type": "Schedule",
+              "repeatFrequency": "P1W",
+              "byDay": "https://schema.org/Sunday",
+              "startTime": "09:30",
+              "endTime": "11:00"
             },
-            "inLanguage": "pt-BR"
+            "location": {
+              "@type": "Place",
+              "name": "Igreja de Cristo em Garopaba",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Rua Pinguirito, 40",
+                "addressLocality": "Garopaba",
+                "addressRegion": "SC",
+                "addressCountry": "BR"
+              }
+            },
+            "organizer": {
+              "@id": "https://www.igrejadecristo.net.br/garopaba/#church"
+            }
           },
           {
-            "@type": "ItemList",
-            "@id": "https://www.igrejadecristo.net.br/#igrejas-locais",
-            "name": "Igrejas de Cristo locais",
-            "description": "Conheça igrejas locais ligadas à Igreja de Cristo no Brasil.",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Igreja de Cristo em Garopaba",
-                "url": "https://www.igrejadecristo.net.br/garopaba/"
+            "@type": "Event",
+            "@id": "https://www.igrejadecristo.net.br/garopaba/#noite-de-estudos",
+            "name": "Noite de Estudos",
+            "description": "Estudo bíblico semanal da Igreja de Cristo em Garopaba.",
+            "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+            "eventStatus": "https://schema.org/EventScheduled",
+            "eventSchedule": {
+              "@type": "Schedule",
+              "repeatFrequency": "P1W",
+              "byDay": "https://schema.org/Wednesday",
+              "startTime": "19:00",
+              "endTime": "20:30"
+            },
+            "location": {
+              "@type": "Place",
+              "name": "Igreja de Cristo em Garopaba",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Rua Pinguirito, 40",
+                "addressLocality": "Garopaba",
+                "addressRegion": "SC",
+                "addressCountry": "BR"
               }
-            ]
+            },
+            "organizer": {
+              "@id": "https://www.igrejadecristo.net.br/garopaba/#church"
+            }
           }
         ]
       }
@@ -120,7 +164,7 @@
         >
           <img
             class="img-fluid"
-            src="assets/img/novo-logo-white-300x120.webp"
+            src="../assets/img/novo-logo-white-300x120.webp"
             alt="Logo Igreja de Cristo"
             style="max-height: 64px; width: auto"
           />
@@ -214,13 +258,13 @@
         >
           <a
             aria-label="Igreja de Cristo - página inicial"
-            class="d-flex align-items-center justify-content-center gap-3 text-white text-decoration-none mb-3"
+            class="d-flex align-items-center justify-content-center gap-3 text-white text-decoration-none mb-5"
             href="index.html"
           >
             <img
               alt=""
               class="img-fluid"
-              src="assets/img/novo-logo-white-300x120.webp"
+              src="../assets/img/novo-logo-white-300x120.webp"
               style="max-width: 100%; height: auto; max-height: 80px"
             />
             <!--  <span>
@@ -274,23 +318,27 @@
               </li>
             </ul>
           </nav>
-          <section aria-labelledby="igrejas-aside" class="mt-auto pt-3">
+          <section aria-labelledby="cultos-aside" class="mt-auto pt-3">
             <h2
               class="fs-6 text-uppercase text-gold letter-spacing"
-              id="igrejas-aside"
+              id="cultos-aside"
             >
-              Igrejas locais
+              Encontros
             </h2>
-            <p class="small mb-1">
-              Conheça comunidades da Igreja de Cristo no Brasil.
-            </p>
-            <p class="small mb-4">
-              Encontre uma igreja local e participe conosco.
-            </p>
-            <a class="btn btn-outline-light w-100 mb-2" href="#igrejas-locais">
-              Encontrar uma igreja
+            <p class="small mb-1">Domingo · 9h30</p>
+            <p class="small mb-4">Quarta-feira · 19h</p>
+            <a class="btn btn-outline-light w-100 mb-2" href="contato.html"
+              >Como chegar</a
+            >
+            <a
+              class="btn btn-gold w-100"
+              href="https://wa.me/5553981493086?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido%20de%20ora%C3%A7%C3%A3o."
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="bi bi-whatsapp me-1"></i> Faça seu
+              pedido de oração
             </a>
-            <a class="btn btn-gold w-100" href="contato.html"> Fale conosco </a>
           </section>
         </aside>
         <main
@@ -346,18 +394,18 @@
                     <p
                       class="text-gold text-uppercase fw-semibold letter-spacing mb-3"
                     >
-                      Igreja de Cristo
+                      Bem-vindo
                     </p>
                     <h1 class="display-4 fw-bold">
-                      Evangelho, Bíblia, fé e comunhão em Cristo
+                      Igreja de Cristo em Garopaba
                     </h1>
                     <p class="lead d-none d-sm-block">
-                      Uma comunidade cristã comprometida com Jesus Cristo, com a
-                      Palavra de Deus e com a missão de anunciar o Evangelho.
+                      Um lugar para pertencer, crescer na fé e viver comunhão em
+                      Cristo.
                     </p>
-                    <a class="btn btn-gold btn-lg mt-2" href="#igrejas-locais">
-                      Encontre uma igreja local
-                    </a>
+                    <a class="btn btn-gold btn-lg mt-2" href="contato.html"
+                      >Planeje sua visita</a
+                    >
                   </div>
                 </article>
                 <article class="carousel-item">
@@ -380,16 +428,15 @@
                     <p
                       class="text-gold text-uppercase fw-semibold letter-spacing mb-3"
                     >
-                      Nossa fé
+                      Culto de domingo
                     </p>
-                    <h2 class="display-5 fw-bold">Cristo no centro de tudo</h2>
+                    <h2 class="display-5 fw-bold">Domingos às 9h30</h2>
                     <p class="lead d-none d-sm-block">
-                      Cremos na autoridade das Escrituras, na graça de Deus, na
-                      comunhão dos santos e na vida transformada pelo Evangelho.
+                      Uma celebração preparada para toda a família.
                     </p>
-                    <a class="btn btn-gold btn-lg mt-2" href="quem-somos.html">
-                      Conheça nossa fé
-                    </a>
+                    <a class="btn btn-gold btn-lg mt-2" href="eventos.html"
+                      >Ver programação</a
+                    >
                   </div>
                 </article>
                 <article class="carousel-item">
@@ -407,18 +454,15 @@
                     <p
                       class="text-gold text-uppercase fw-semibold letter-spacing mb-3"
                     >
-                      Comunhão e missão
+                      Conecte-se
                     </p>
-                    <h2 class="display-5 fw-bold">
-                      Uma igreja presente em comunidades locais
-                    </h2>
+                    <h2 class="display-5 fw-bold">Há espaço para você aqui</h2>
                     <p class="lead d-none d-sm-block">
-                      A Igreja de Cristo se reúne em diferentes cidades para
-                      adorar a Deus, servir pessoas e proclamar a Palavra.
+                      Conheça ministérios, grupos e formas de servir.
                     </p>
-                    <a class="btn btn-gold btn-lg mt-2" href="#igrejas-locais">
-                      Ver igrejas locais
-                    </a>
+                    <a class="btn btn-gold btn-lg mt-2" href="quem-somos.html"
+                      >Conheça a igreja</a
+                    >
                   </div>
                 </article>
               </div>
@@ -453,32 +497,32 @@
             class="bg-white py-5 px-4 px-md-5"
           >
             <header class="text-center mx-auto mb-5" style="max-width: 46rem">
-              <span class="section-kicker">Nossa identidade</span>
+              <!-- <p
+                class="text-uppercase text-brand fw-semibold letter-spacing mb-2"
+              >
+                Nossa comunidade
+              </p> -->
+              <span class="section-kicker">Nossa comunidade</span>
               <h2 class="display-6 fw-bold text-brand" id="acolhimento">
-                Uma igreja firmada em Cristo e na Palavra de Deus
+                Cristo, fé, e comunhão
               </h2>
               <span
                 aria-hidden="true"
                 class="gold-rule d-block mx-auto my-3"
               ></span>
               <p class="text-secondary">
-                A Igreja de Cristo existe para glorificar a Deus, anunciar o
-                Evangelho de Jesus Cristo, ensinar a Bíblia e promover comunhão
-                entre irmãos em diferentes comunidades locais.
+                Uma igreja comprometida com o Evangelho, com Cristo e com os
+                ensinamentos Dele.
               </p>
             </header>
             <div class="row g-4">
               <article class="col-md-4">
                 <div class="card h-100 border-0 shadow-sm hover-lift">
                   <div class="card-body p-4">
-                    <i
-                      aria-hidden="true"
-                      class="bi bi-plus-lg text-gold fs-1"
-                    ></i>
-                    <h3 class="h5 text-brand mt-3">Cristo</h3>
+                    <i aria-hidden="true" class="bi bi-book text-gold fs-1"></i>
+                    <h3 class="h5 text-brand mt-3">Palavra</h3>
                     <p class="text-secondary mb-0">
-                      Jesus Cristo é o fundamento da nossa fé, da nossa
-                      esperança e da nossa missão.
+                      Mensagens bíblicas para viver a fé no dia a dia.
                     </p>
                   </div>
                 </div>
@@ -490,10 +534,9 @@
                       aria-hidden="true"
                       class="bi bi-people text-gold fs-1"
                     ></i>
-                    <h3 class="h5 text-brand mt-3">Evangelho</h3>
+                    <h3 class="h5 text-brand mt-3">Comunhão</h3>
                     <p class="text-secondary mb-0">
-                      Anunciamos a boa notícia da salvação, chamando pessoas a
-                      conhecerem a graça e o amor de Deus.
+                      Encontros e grupos para criar relacionamentos verdadeiros.
                     </p>
                   </div>
                 </div>
@@ -501,11 +544,13 @@
               <article class="col-md-4">
                 <div class="card h-100 border-0 shadow-sm hover-lift">
                   <div class="card-body p-4">
-                    <i aria-hidden="true" class="bi bi-book text-gold fs-1"></i>
-                    <h3 class="h5 text-brand mt-3">Bíblia</h3>
+                    <i
+                      aria-hidden="true"
+                      class="bi bi-heart text-gold fs-1"
+                    ></i>
+                    <h3 class="h5 text-brand mt-3">Amor</h3>
                     <p class="text-secondary mb-0">
-                      Buscamos viver e ensinar a Palavra de Deus com fidelidade,
-                      simplicidade e amor.
+                      Guiados pelo amor de Cristo transformando realidades.
                     </p>
                   </div>
                 </div>
@@ -513,112 +558,6 @@
             </div>
           </section>
           <section
-            aria-labelledby="igrejas-locais-title"
-            class="bg-soft py-5 px-4 px-md-5"
-            id="igrejas-locais"
-          >
-            <header class="text-center mx-auto mb-5" style="max-width: 48rem">
-              <span class="section-kicker">Igrejas locais</span>
-
-              <h2 class="fw-bold text-brand" id="igrejas-locais-title">
-                Encontre uma Igreja de Cristo
-              </h2>
-
-              <span
-                aria-hidden="true"
-                class="gold-rule d-block mx-auto my-3"
-              ></span>
-
-              <p class="text-secondary">
-                Conheça comunidades locais da Igreja de Cristo e encontre
-                informações sobre cultos, estudos bíblicos, endereço, contato e
-                programação.
-              </p>
-            </header>
-
-            <div class="row g-4 align-items-stretch">
-              <article class="col-md-6 col-xl-4 d-flex">
-                <div class="card border-0 shadow-sm h-100 hover-lift w-100">
-                  <div class="card-body p-4 d-flex flex-column">
-                    <i
-                      aria-hidden="true"
-                      class="bi bi-geo-alt text-gold fs-1"
-                    ></i>
-
-                    <h3 class="h5 text-brand mt-3">
-                      Igreja de Cristo em Garopaba
-                    </h3>
-
-                    <p class="text-secondary mb-4">
-                      Comunidade local da Igreja de Cristo em Garopaba, Santa
-                      Catarina.
-                    </p>
-
-                    <a
-                      class="btn btn-outline-primary w-100 mt-auto align-self-start"
-                      href="garopaba/"
-                    >
-                      Conhecer igreja local
-                    </a>
-                  </div>
-                </div>
-              </article>
-
-              <article class="col-md-6 col-xl-4 d-flex">
-                <div class="card border-0 shadow-sm h-100 hover-lift w-100">
-                  <div class="card-body p-4 d-flex flex-column">
-                    <i
-                      aria-hidden="true"
-                      class="bi bi-geo-alt text-gold fs-1"
-                    ></i>
-
-                    <h3 class="h5 text-brand mt-3">
-                      Igreja de Cristo em Campo Grande
-                    </h3>
-
-                    <p class="text-secondary mb-4">
-                      Comunidade local da Igreja de Cristo em Campo Grande.
-                    </p>
-
-                    <a
-                      class="btn btn-outline-primary w-100 mt-auto align-self-start"
-                      href="lucasdeoliveira/"
-                    >
-                      Conhecer igreja local
-                    </a>
-                  </div>
-                </div>
-              </article>
-
-              <article class="col-md-6 col-xl-4 d-flex">
-                <div class="card border-0 shadow-sm h-100 hover-lift w-100">
-                  <div class="card-body p-4 d-flex flex-column">
-                    <i
-                      aria-hidden="true"
-                      class="bi bi-plus-circle text-gold fs-1"
-                    ></i>
-
-                    <h3 class="h5 text-brand mt-3">Solicite sua igreja aqui</h3>
-
-                    <p class="text-secondary mb-4">
-                      Novas páginas de igrejas locais poderão ser adicionadas
-                      conforme a estrutura do site crescer.
-                    </p>
-
-                    <a
-                      class="btn btn-outline-primary w-100 mt-auto align-self-start"
-                      href="contato.html"
-                    >
-                      Fale conosco
-                    </a>
-                  </div>
-                </div>
-              </article>
-            </div>
-          </section>
-          ```
-
-          <!-- <section
             aria-labelledby="proximos-eventos"
             class="bg-soft py-5 px-4 px-md-5"
           >
@@ -634,13 +573,13 @@
                 <h2 class="fw-bold text-brand mb-0" id="proximos-eventos">
                   Encontros toda semana
                 </h2>
-              </section> -->
-          <!-- <a
+              </section>
+              <!-- <a
                 class="btn btn-outline-primary mt-3 mt-md-0"
                 href="eventos.html"
                 >Agenda completa</a
               > -->
-          <!-- </header>
+            </header>
             <div class="row g-4">
               <article class="col-xl-6">
                 <div class="card border-0 shadow-sm h-100">
@@ -649,7 +588,7 @@
                       class="event-date text-center rounded-3 bg-brand text-white p-2 d-flex align-items-center justify-content-center"
                       datetime="2026-05-31"
                       ><strong class="d-block fs-3 lh-1">DOM</strong>
-                      <span class="small" >MAI</span>
+                      <!-- <span class="small" >MAI</span> -->
                     </time>
                     <div>
                       <h3 class="h5 text-brand">Culto de Celebração</h3>
@@ -668,7 +607,7 @@
                       class="event-date text-center rounded-3 bg-brand text-white p-2 d-flex align-items-center justify-content-center"
                       datetime="2026-06-03"
                       ><strong class="d-block fs-3 lh-1">QUA</strong>
-                      <span class="small">JUN</span>
+                      <!-- <span class="small">JUN</span> -->
                     </time>
                     <div>
                       <h3 class="h5 text-brand">Noite de Estudos</h3>
@@ -679,8 +618,8 @@
                     </div>
                   </div>
                 </div>
-              </article> -->
-          <!-- <article class="col-xl-4">
+              </article>
+              <!-- <article class="col-xl-4">
                 <div class="card border-0 shadow-sm h-100">
                   <div class="card-body d-flex gap-3 p-4">
                     <time
@@ -699,26 +638,30 @@
                   </div>
                 </div>
               </article> -->
-          <!-- </div>
-          </section>  -->
+            </div>
+          </section>
           <section
             aria-labelledby="galeria-home"
             class="bg-white py-5 px-4 px-md-5"
           >
             <header class="text-center mb-4">
-              <span class="section-kicker">Vida em comunidade</span>
               <h2 class="fw-bold text-brand" id="galeria-home">
-                Fé, comunhão e serviço ao próximo
+                Momentos da nossa comunidade
               </h2>
               <p class="text-secondary">
-                Momentos que expressam a caminhada cristã: adoração, estudo da
-                Bíblia, comunhão, batismos e ações de amor.
+                Celebrações, encontros e ações de amor ao próximo.
               </p>
             </header>
             <div class="row g-3 mb-4">
               <figure class="col-md-4 mb-0">
+                <!-- <img
+                  alt="Comunidade reunida em celebração"
+                  class="img-fluid rounded-3 gallery-image w-100"
+                  loading="lazy"
+                  src="https://images.unsplash.com/photo-1438232992991-995b7058bbb3?auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                /> -->
                 <img
-                  alt="Batismo realizado por uma comunidade da Igreja de Cristo"
+                  alt="Comunidade reunida em celebração"
                   class="img-fluid rounded-3 gallery-image w-100"
                   loading="lazy"
                   src="/assets/img/garopaba/batismo_1.webp"
@@ -727,8 +670,14 @@
                 />
               </figure>
               <figure class="col-md-4 mb-0">
+                <!-- <img
+                  alt="Bíblia aberta durante momento de estudo"
+                  class="img-fluid rounded-3 gallery-image w-100"
+                  loading="lazy"
+                  src="https://images.unsplash.com/photo-1504052434569-70ad5836ab65?auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                /> -->
                 <img
-                  alt="Momento de estudo bíblico em comunidade cristã"
+                  alt="Bíblia aberta durante momento de estudo"
                   class="img-fluid rounded-3 gallery-image w-100"
                   loading="lazy"
                   src="/assets/img/garopaba/estudo_biblico_03.webp"
@@ -737,8 +686,14 @@
                 />
               </figure>
               <figure class="col-md-4 mb-0">
+                <!-- <img
+                  alt="Grupo reunido em comunhão"
+                  class="img-fluid rounded-3 gallery-image w-100"
+                  loading="lazy"
+                  src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                /> -->
                 <img
-                  alt="Pessoas reunidas em comunhão cristã"
+                  alt="Grupo reunido em comunhão"
                   class="img-fluid rounded-3 gallery-image w-100"
                   loading="lazy"
                   src="/assets/img/garopaba/estudo_biblico_01.webp"
@@ -765,12 +720,11 @@
                   Fale conosco
                 </p>
                 <h2 class="fw-bold text-brand" id="contato-home">
-                  Quer saber mais sobre a Igreja de Cristo?
+                  Será uma alegria receber você
                 </h2>
                 <p class="text-secondary">
-                  Entre em contato para saber mais sobre nossa fé, nossas
-                  comunidades locais ou para receber orientação sobre uma Igreja
-                  de Cristo próxima de você.
+                  Envie sua mensagem, pedido de oração ou dúvida sobre nossa
+                  programação.
                 </p>
                 <!-- <a class="btn btn-gold" href="contato.html"
                   >Entrar em contato</a
@@ -895,7 +849,9 @@
               </div> -->
               <div class="col-lg-7">
                 <div class="card border-0 shadow-sm p-4">
-                  <h3 class="h5 fw-semibold mb-4">Canais institucionais</h3>
+                  <h3 class="h5 fw-semibold mb-4">
+                    Fale conosco pelos nossos canais
+                  </h3>
                   <div class="d-flex flex-column gap-3">
                     <a
                       href="https://wa.me/5553981493086"
@@ -1021,23 +977,11 @@
                   class="col-6 col-md-3 col-xl-3 order-2 order-md-3"
                 >
                   <h2 class="h6 text-gold mb-3" id="footer-cultos">
-                    Igrejas locais
+                    Programação
                   </h2>
                   <ul class="list-unstyled text-white small d-grid gap-2">
-                    <li>
-                      <a
-                        class="link-light text-decoration-none"
-                        href="garopaba/"
-                        >Igreja de Cristo em Garopaba</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="link-light text-decoration-none"
-                        href="lucasdeoliveira/"
-                        >Igreja de Cristo em Lucas de Oliveira</a
-                      >
-                    </li>
+                    <li>Domingo · Culto de Celebração · 9h30</li>
+                    <li>Quarta-feira · Noite de Estudos · 19h</li>
                   </ul>
                 </div>
 
@@ -1046,26 +990,13 @@
                   class="col-xl-3 order-3 order-md-4"
                 >
                   <h2 class="h6 text-gold mb-3" id="footer-contact">Contato</h2>
-
                   <address class="text-white small lh-lg mb-3">
-                    <i aria-hidden="true" class="bi bi-envelope me-2"></i>
-                    <a
-                      class="link-light text-decoration-none"
-                      href="mailto:contato@igrejadecristo.net.br"
-                    >
-                      contato@igrejadecristo.net.br
-                    </a>
-                    <br />
-
-                    <i aria-hidden="true" class="bi bi-globe me-2"></i>
-                    <a
-                      class="link-light text-decoration-none"
-                      href="https://www.igrejadecristo.net.br/"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      www.igrejadecristo.net.br
-                    </a>
+                    <i aria-hidden="true" class="bi bi-geo-alt me-2"></i>Rua
+                    Pinguirito, 41 · Centro<br />
+                    <i aria-hidden="true" class="bi bi-telephone me-2"></i>(53)
+                    98149-3086<br />
+                    <i aria-hidden="true" class="bi bi-envelope me-2"></i
+                    >gesiel.br@gmail.com
                   </address>
                 </div>
 
@@ -1081,9 +1012,8 @@
                     Igreja de Cristo
                   </h2>
                   <p class="text-white">
-                    A Igreja de Cristo é uma comunidade cristã comprometida com
-                    Jesus Cristo, com o Evangelho, com a Bíblia, com a comunhão
-                    e com a missão de servir a Deus e ao próximo.
+                    Uma comunidade cristã para acolher famílias, servir a cidade
+                    e viver a fé com propósito.
                   </p>
                   <nav aria-label="Redes sociais" class="d-flex gap-3">
                     <a
@@ -1184,6 +1114,6 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     ></script>
-    <script src="assets/js/main.js" defer></script>
+    <script src="../assets/js/main.js" defer></script>
   </body>
 </html>
